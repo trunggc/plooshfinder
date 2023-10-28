@@ -16,6 +16,7 @@ jobs:
         run: |
           mkdir -p build
           mv libplooshfinder.a build
+jobs:
   build-macos:
     runs-on: macos-latest
     steps:
